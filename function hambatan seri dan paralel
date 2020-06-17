@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+void penjumlahan (int c, int n) {
+	cout << (c+n);
+}
+
+void pengurangan (int h, int y) {
+	cout << (h-y);
+}
+
+void perkalian (int a, int z) {
+	cout << (a*z);
+}
+
+void pembagian (int firstNumber, int anotherNumber) {
+	cout << (firstNumber/anotherNumber);
+}
+
+int main () {
+	cout <<  "Hasil penjumlahan = " << endl;
+	penjumlahan (20,6);
+	cout << endl;
+	cout << "Hasil pengurangan = " << endl;
+	pengurangan (30, 2);
+	cout << endl;
+	cout << "Hasil perkalian = " << endl;
+	perkalian (24, 25);
+	cout << endl;
+	cout << "Hasil pembagian = " << endl;
+	pembagian (1000, 25);
+	cout << endl;
+}
